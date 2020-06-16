@@ -1,0 +1,11 @@
+.buttons {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: end;
+	height: 40vh;
+}

@@ -1,0 +1,16 @@
+.containerQuemSouEu {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.containerQuemSouEu section {
+	padding: 20px;
+	font-size: 1.2em;
+	background-color: orange;
+}
+.containerQuemSouEu hr {
+	margin: 20px;
+}
