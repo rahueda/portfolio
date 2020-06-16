@@ -26,16 +26,18 @@ const projects = () => {
 		},
 	];
 
-	const projectMap = projectsLink.map((project) => {
-		return <div>{project.name}</div>;
+	const projectMap = projectsLink.map((project, id) => {
+		return (
+			<div className="card" key={id}>
+				{project.name}
+			</div>
+		);
 	});
 
 	return (
 		<div className="containerProjects">
-			<section>
-				<h1>Projetos</h1>
-				<p>{projectMap}</p>
-			</section>
+			<h1>Projetos</h1>
+			<section className="cards">{projectMap}</section>
 		</div>
 	);
 };
