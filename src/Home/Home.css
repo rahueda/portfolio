@@ -52,3 +52,9 @@
 	border-top: 2px solid orange;
 	width: 80%;
 }
+
+h1 {
+	font-size: 2em;
+	color: #89e4e4;
+	text-shadow: black 1px 1px;
+}

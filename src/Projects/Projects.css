@@ -1,14 +1,20 @@
 .containerProjects {
-	height: 200vh;
+	height: 100%;
+	text-align: center;
+	margin: auto;
 }
 
-.cards {
+/* .cards {
 	display: grid;
-}
+} */
 
 .card {
-	margin: 10px;
-	height: 120px;
-	width: 100px;
-	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.card img {
+	width: 90%;
 }

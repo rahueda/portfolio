@@ -4,9 +4,9 @@ import './Button.css';
 
 const button = (props) => (
 	<div>
-		<button /* onClick={props.container} */ className="buttonLink">
-			{props.children}
-		</button>
+		<a href={props.container}>
+			<button className="buttonLink">{props.children}</button>
+		</a>
 	</div>
 );
 
