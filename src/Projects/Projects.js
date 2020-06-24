@@ -12,32 +12,32 @@ const projects = () => {
 			name: 'My Library',
 			link: 'https://github.com/rahueda/my-library',
 			img: mylibraryImg,
-			id: 1,
+			id: 4,
 		},
 		{
 			name: 'Pomodoro',
 			link: 'https://github.com/rahueda/pomodoro',
 			img: pomodoroImg,
-			id: 2,
+			id: 3,
 		},
 		{
 			name: 'Calculator',
 			link: 'https://github.com/rahueda/calculator',
 			img: calculatorImg,
-			id: 3,
+			id: 2,
 		},
 		{
 			name: 'Jokenpo',
 			link: 'https://github.com/rahueda/jokenpo',
 			img: jokenpoImg,
-			id: 4,
+			id: 1,
 		},
 	];
 
 	const projectMap = projectsLink.map((project, id) => {
 		return (
 			<div className="card" key={id}>
-				{project.name}
+				<span>{project.name}</span>
 				<a href={project.link} target="_blank" rel="noopener noreferrer">
 					<img src={project.img} alt={project.name} />
 				</a>
@@ -46,8 +46,8 @@ const projects = () => {
 	});
 
 	return (
-		<div className="containerProjects">
-			<h1>PROJETOS</h1>
+		<div id="projects" className="containerProjects">
+			<h1>PROJECTS</h1>
 			<section className="cards">{projectMap}</section>
 		</div>
 	);

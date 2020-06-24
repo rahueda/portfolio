@@ -1,0 +1,34 @@
+.contactsContainer {
+	background-color: black;
+	padding: 20px 15px;
+	height: 30vh;
+}
+
+.contactsContainer .contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+	.contactsContainer {
+		height: 25vh;
+	}
+
+	.contacts {
+		width: 60vw;
+		margin: 60px auto;
+	}
+}
+
+@media (min-width: 1025px) {
+	.contactsContainer {
+		float: none;
+		top: 25%;
+		right: 0;
+	}
+
+	.contacts {
+		width: 600px;
+		margin: 60px auto;
+	}
+}

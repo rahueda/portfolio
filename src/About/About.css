@@ -1,0 +1,46 @@
+.containerAbout {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: justify;
+	background-image: linear-gradient(315deg, #0f0f0f 0%, #181717 74%);
+}
+
+.containerAbout section {
+	padding: 0 20px;
+	font-size: 0.9em;
+	color: white;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+.containerAbout hr {
+	margin: 10px;
+}
+
+.containerAbout h1 {
+	font-size: 2em;
+}
+
+@media (min-width: 600px) {
+	.containerAbout section {
+		width: 70%;
+		margin: auto;
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 1025px) {
+	.containerAbout {
+		padding-bottom: 60px;
+	}
+
+	.containerAbout section {
+		width: 50%;
+		margin: auto;
+		font-size: 1.4em;
+	}
+
+	.containerAbout hr {
+		margin: 30px;
+	}
+}

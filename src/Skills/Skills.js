@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './Frontend.css';
+import './Skills.css';
+
 function importAll(r) {
 	let images = {};
 	r.keys().map((item, index) => (images[item.replace('./', '')] = r(item)));
@@ -8,11 +9,7 @@ function importAll(r) {
 }
 
 const images = importAll(
-	require.context(
-		'../../assets/logo/certificates/',
-		false,
-		/\.(png|jpe?g|svg)$/
-	)
+	require.context('./../assets/logo/certificates/', false, /\.(png|jpe?g|svg)$/)
 );
 
 const frontend = () => {
@@ -58,7 +55,8 @@ const frontend = () => {
 	});
 
 	return (
-		<div className="containerFrontEnd">
+		<div id="skills" className="containerSkills">
+			<h1>SKILLS</h1>
 			<section className="hexagon-gallery">{frontendLogosMap}</section>
 		</div>
 	);

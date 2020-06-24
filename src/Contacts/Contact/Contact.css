@@ -1,0 +1,20 @@
+.logos img {
+	width: 35px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+	.logos img {
+		width: 45px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.logos img {
+		width: 60px;
+		background-color: white;
+		padding: 6px;
+	}
+}

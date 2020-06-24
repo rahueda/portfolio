@@ -1,0 +1,21 @@
+.buttonLink {
+	width: 25vw;
+	border: none;
+	font-weight: 400;
+	background-color: transparent;
+	color: white;
+}
+
+@media (min-width: 600px) {
+	.buttonLink {
+		width: 30vw;
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 1025px) {
+	.buttonLink {
+		width: 10vw;
+		font-size: 1.2em;
+	}
+}
